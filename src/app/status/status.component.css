@@ -1,0 +1,10 @@
+.btnCompleted {
+  background-color: #12BBA7;
+  margin-right: 10px;
+}
+
+table tbody td input#check {
+  background-color: #6f7275;
+  width: 16px;
+  height: 16px;
+}

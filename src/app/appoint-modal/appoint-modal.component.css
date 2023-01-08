@@ -1,0 +1,24 @@
+.appointModal {
+  width: 425px;
+}
+
+.parent {
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(3, 1fr) 40px;
+}
+
+.div1 {
+  grid-area: 1 / 1 / 2 / 3;
+}
+
+.div2 {
+  grid-area: 2 / 1 / 4 / 3;
+}
+
+.div3 {
+  grid-area: 4 / 1 / 5 / 2;
+}
+
+.div4 {
+  grid-area: 4 / 2 / 5 / 3;
+}

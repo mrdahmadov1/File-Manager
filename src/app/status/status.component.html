@@ -1,0 +1,101 @@
+<main class="main">
+  <div class="row p-0 m-0 align-items-center justify-content-between header">
+    <div class="col col-3 title">
+      <h6 class="m-0 p-0">Faylin Statusu</h6>
+    </div>
+    <div class="col col-7 m-0 p-0 buttons">
+      <button class="col  btn btn-primary btnCompleted"><i class="bi bi-check"></i> Tamamlandi</button>
+      <button class="col  btn btn-light btnView"><i class="bi bi-eye"></i> Bax</button>
+    </div>
+  </div>
+
+  <table class="table table-striped table-hover table-bordered">
+    <thead>
+      <tr>
+        <th scope="col">#</th>
+        <th scope="col">File №</th>
+        <th scope="col">Type</th>
+        <th scope="col">Description</th>
+        <th scope="col">Skan</th>
+        <th scope="col">Status</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td class="text-center">
+          <input type="checkbox" name="check" id="check">
+        </td>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+        <td>
+          <select id="status" name="status">
+            <option value="volvo" selected>Tamamlandi</option>
+            <option value="saab">Davam edir</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td class="text-center">
+          <input type="checkbox" name="check" id="check">
+        </td>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+        <td>
+          <select id="status" name="status">
+            <option value="completed">Tamamlandi</option>
+            <option value="uncompleted" selected>Davam edir</option>
+          </select>
+        </td>
+      </tr>
+      <tr>
+        <td class="text-center">
+          <input type="checkbox" name="check" id="check">
+        </td>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+        <td>Lorem Ipsum</td>
+        <td>
+          <select id="status" name="status">
+            <option value="completed">Tamamlandi</option>
+            <option value="uncompleted" selected>Davam edir</option>
+          </select>
+        </td>
+      </tr>
+    </tbody>
+  </table>
+
+  <div class="myPagination d-flex align-items-center justify-content-end gap-3">
+    <div class="btn-group counter d-flex align-items-center">
+      <p class="my-0 mx-2">Setr sayi</p>
+      <button type="button" class="btn btn-light dropdown-toggle" data-bs-toggle="dropdown" aria-expanded="false">
+        3
+      </button>
+      <ul class="dropdown-menu">
+        <li class="m-0"><a class="dropdown-item" href="#">1</a></li>
+        <li class="m-0"><a class="dropdown-item" href="#">2</a></li>
+        <li class="m-0"><a class="dropdown-item" href="#">3</a></li>
+        <li class="m-0"><a class="dropdown-item" href="#">4</a></li>
+        <li class="m-0"><a class="dropdown-item" href="#">5</a></li>
+        <li class="m-0"><a class="dropdown-item" href="#">6</a></li>
+      </ul>
+    </div>
+    <nav aria-label="Page navigation pages">
+      <ul class="pagination justify-content-end m-0">
+        <li class="page-item disabled">
+          <a class="page-link" href="#" tabindex="-1" aria-disabled="true">Previous</a>
+        </li>
+        <li class="page-item"><a class="page-link" href="#">1</a></li>
+        <li class="page-item"><a class="page-link" href="#">2</a></li>
+        <li class="page-item"><a class="page-link" href="#">3</a></li>
+        <li class="page-item">
+          <a class="page-link" href="#">Next</a>
+        </li>
+      </ul>
+    </nav>
+  </div>
+</main>
